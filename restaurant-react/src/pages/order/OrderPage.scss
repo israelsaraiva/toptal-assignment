@@ -1,0 +1,55 @@
+@import '../../assets/styles/general';
+
+.OrderPage {
+  padding: 2rem 1rem;
+  display: flex;
+
+  &-timeline {
+    width: 350px;
+    text-align: center;
+  }
+
+  &-order-data {
+    flex: 1;
+
+    h6 {
+      margin-bottom: 2rem;
+    }
+
+    p {
+      @include font-body-small;
+      margin: 1rem 0;
+      text-transform: capitalize;
+    }
+
+    table {
+      width: 100%;
+
+      thead {
+        border-bottom: 1px solid $input;
+        tr th {
+          @include font-body-xsmall;
+          font-weight: 400;
+          padding-bottom: 1rem;
+          color: $placeholder;
+          text-transform: uppercase;
+        }
+      }
+
+      tbody tr td {
+        @include font-body-small;
+        border-bottom: 1px solid $input;
+        padding: 2rem 0;
+      }
+    }
+
+    .order-execute-container {
+      margin: 1rem 0 2rem 0;
+
+      button {
+        @include font-body-small;
+        margin-right: 1rem;
+      }
+    }
+  }
+}

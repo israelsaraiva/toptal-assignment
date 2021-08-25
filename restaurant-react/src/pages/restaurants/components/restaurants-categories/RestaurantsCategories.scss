@@ -1,0 +1,42 @@
+@import '../../../../assets/styles/general';
+
+.RestaurantsCategories {
+  width: 230px;
+  padding-right: 1rem;
+  border-right: 1px solid $input;
+
+  &-list {
+    margin-top: 2rem;
+    padding: 0;
+    transition: color 0.2s ease;
+
+    li {
+      list-style: none;
+
+      button {
+        @include font-body-small;
+        border: none;
+        background-color: transparent;
+        padding: 10px 15px;
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+      }
+
+      &:hover {
+        cursor: pointer;
+
+        button {
+          color: $tiger800;
+          background-color: $gold100;
+        }
+      }
+
+      &.active button {
+        font-weight: bold;
+        color: $tiger800;
+      }
+    }
+  }
+}

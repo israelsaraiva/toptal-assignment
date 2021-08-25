@@ -1,0 +1,21 @@
+@import '../../../../../assets/styles/general';
+
+.RestaurantClients {
+  padding: 2rem;
+
+  &-client-block {
+    @include font-body-small;
+    background-color: $line;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .btn {
+      padding: 2px;
+      color: $chili600;
+    }
+  }
+}

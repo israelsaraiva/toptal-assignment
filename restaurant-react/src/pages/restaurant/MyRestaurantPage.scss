@@ -1,0 +1,11 @@
+@import '../../assets/styles/general';
+
+.MyRestaurantPage {
+  padding: 2rem;
+  display: flex;
+
+  button {
+    @include font-body-small;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,52 @@
+@import '../../../../assets/styles/general';
+
+.Meals {
+  flex: 1;
+
+  h6 {
+    margin-bottom: 2rem;
+  }
+
+  p {
+    @include font-body-small;
+    margin: 1rem 0;
+    text-transform: capitalize;
+  }
+
+  &-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  table {
+    width: 100%;
+
+    thead {
+      border-bottom: 1px solid $input;
+      tr th {
+        @include font-body-xsmall;
+        font-weight: 400;
+        padding-bottom: 1rem;
+        color: $placeholder;
+        text-transform: uppercase;
+        padding: 2rem 10px;
+      }
+    }
+
+    tbody tr {
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: aliceblue;
+        cursor: pointer;
+      }
+
+      td {
+        @include font-body-xsmall;
+        border-bottom: 1px solid $input;
+        padding: 2rem 10px;
+      }
+    }
+  }
+}

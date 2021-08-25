@@ -1,0 +1,32 @@
+@import '../../../assets/styles/general';
+
+.DrawerMenu {
+  width: 280px;
+  padding: 2rem 1.5rem;
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li button {
+      @include font-body-small;
+      padding: 10px 15px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      background-color: transparent;
+      border: none;
+      width: 100%;
+
+      .menu-icon {
+        font-size: 20px;
+        margin-right: 10px;
+      }
+
+      &:hover {
+        background-color: $gold100;
+        cursor: pointer;
+      }
+    }
+  }
+}

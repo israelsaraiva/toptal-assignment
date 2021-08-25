@@ -1,0 +1,55 @@
+// -- Desktop styles --
+
+@mixin font-display-huge {
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: 1px;
+}
+
+@mixin font-display-large {
+  font-size: 50px;
+  line-height: 64px;
+  letter-spacing: 1px;
+}
+
+@mixin font-display-medium {
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 1px;
+}
+
+@mixin font-display-small {
+  font-size: 33px;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+
+@mixin font-display-xsmall {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+
+@mixin font-body-large {
+  font-size: 20px;
+  line-height: 38px;
+  letter-spacing: 0.75px;
+}
+
+@mixin font-body-medium {
+  font-size: 17px;
+  line-height: 34px;
+  letter-spacing: 0.75px;
+}
+
+@mixin font-body-small {
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+
+@mixin font-body-xsmall {
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+}

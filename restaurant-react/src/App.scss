@@ -1,0 +1,19 @@
+@import './assets/styles/general';
+
+.App {
+  width: 100vw;
+  display: flex;
+  min-height: 100vh;
+
+  &-page-content {
+    flex: 1;
+    max-width: calc(100vw - 300px);
+    background-color: $offWhite;
+    display: flex;
+    flex-direction: column;
+
+    &-body {
+      flex: 1;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import './general';
+
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+$input-btn-padding-x: 1.3rem;
+
+$input-bg: rgba(225, 227, 233, 0.1);
+$input-border-color: #d3dce6;
+$input-placeholder-color: rgba(82, 87, 92, 0.4);
+
+$hr-color: #d3dce6;
+$hr-opacity: 1;
+$hr-height: 0.5px;
+
+$dropdown-link-hover-bg: #5382ff29;
+
+$primary: $sky800;
+// $secondary: darkmagenta;
+// $success: #27ae60;
+
+@import '~bootstrap/scss/bootstrap';

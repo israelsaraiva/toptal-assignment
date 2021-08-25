@@ -1,0 +1,20 @@
+@import './colors';
+@import './fonts';
+@import './icons';
+@import './media-queries';
+@import './mixins';
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.center-absolute {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.MuiTab-root {
+  font-family: 'Poppins' !important;
+}

@@ -1,0 +1,39 @@
+@import '../../assets/styles/general';
+
+.Input {
+  position: relative;
+
+  &-container {
+    width: 100%;
+    color: $label;
+
+    input,
+    textarea {
+      background-color: transparent;
+      background-color: $input;
+      border-radius: 10px;
+      padding: 10px 18px;
+      @include font-body-small;
+      width: 100%;
+
+      &::placeholder {
+        color: $placeholder;
+        font-weight: 400;
+        opacity: 1;
+      }
+    }
+
+    .search-icon {
+      margin-right: 10px;
+      color: $placeholder;
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  label {
+    display: block;
+  }
+}

@@ -1,0 +1,12 @@
+@import '../../../../assets/styles/general';
+
+.RestaurantInfo {
+  padding-right: 2rem;
+  margin-right: 2rem;
+  border-right: 1px solid $input;
+
+  .save-action {
+    @include font-body-small;
+    font-weight: 500;
+  }
+}

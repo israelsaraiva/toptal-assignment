@@ -1,0 +1,51 @@
+@import '../../assets/styles/general';
+
+.OrderListPage {
+  padding: 2rem;
+
+  .nav-link {
+    @include font-body-xsmall;
+    color: $ash;
+    cursor: pointer;
+  }
+
+  p {
+    @include font-body-xsmall;
+    text-align: center;
+  }
+
+  &-table {
+    padding: 2rem 0rem;
+
+    table {
+      width: 100%;
+
+      thead {
+        @include font-body-xsmall;
+        color: $placeholder;
+        border-bottom: 1px solid $input;
+
+        th {
+          padding: 10px;
+          font-weight: 500;
+        }
+      }
+
+      tbody tr {
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: aliceblue;
+          cursor: pointer;
+        }
+
+        td {
+          @include font-body-small;
+          padding: 20px 10px;
+          border-bottom: 1px solid $input;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}

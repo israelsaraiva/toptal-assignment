@@ -1,0 +1,25 @@
+@import '../../assets/styles/general';
+
+.OrderPlacedPage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-container {
+    width: 400px;
+    height: auto;
+    text-align: center;
+
+    img {
+      width: 100%;
+    }
+
+    h5 {
+      @include font-body-large;
+      text-align: center;
+    }
+  }
+}

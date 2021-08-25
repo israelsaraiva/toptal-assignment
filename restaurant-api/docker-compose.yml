@@ -1,0 +1,11 @@
+version: '3.0'
+
+services:
+  database:
+    container_name: fcdb
+    image: postgres
+    env_file:
+      - database.env
+    ports:
+      - '5434:5432'
+

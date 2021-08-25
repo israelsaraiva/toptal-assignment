@@ -1,0 +1,8 @@
+@import '../../assets/styles/general';
+
+.RestaurantsPage {
+  @include page-defaults;
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+}
